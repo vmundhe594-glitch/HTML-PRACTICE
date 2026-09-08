@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>classes in css</title>
+    <style>
+    button{
+        
+        background-color:black;
+        
+    } 
+         button:hover{
+            background-color:pink;
+        } 
+        button:active{
+            color:blueviolet;
+        }
+         button:focus{
+            background-color:red;
+         }
+         a:visited{
+            color:brown;
+         }
+         a:link{
+            color:purple;
+         }
+
+         p:first-child{
+           color:darkmagenta;
+         }
+
+         p:last-child{
+            color:dimgray;
+         }
+
+         p:nth-child{
+            color:lime;
+         }
+
+        p:not(.special)::first-line {
+    color: red;
+        }
+
+           p::selection{
+            color:azure;
+            background-color: blue;
+           }
+           p::after{
+            content:"Test";
+            font-size:large;
+            color:brown;
+            background-color: aquamarine;
+           }
+           p::before{
+            content:"end";
+            color:blue;
+           }  
+           P::first-letter{
+            color:turquoise;
+        
+    </style>
+</head>
+    <body>
+        <div>
+        <!-- <a href="https://google.com">visit google</a> -->
+         <p>A pseudo-class in CSS is used to define the special state or condition of an HTML element
+It allows us to apply different styles when something happens to an element, such as when the user moves the mouse
+ over it, clicks it, selects an input box, or visits a link.
+A seudo-class is represented by a colon (:) followed by the name of the pseudo-class.</p>
+<button>click me</button>
+
+ <p>cass in CSS is used to define the special state or condition of an HTML element
+It allows us to apply different styles when something happens to an element, such as when the user moves the mouse
+ over it, clicks it, selects an input box, or visits a link.
+A seudo-class is represented by a colon (:) followed by the name of the pseudo-class.</p>
+
+ <p> pseudo-class in CSS is used to define the special state or condition of an HTML element
+It allows us to apply different styles when something happens to an element, such as when the user moves the mouse
+ over it, clicks it, selects an input box, or visits a link.
+A seudo-class is represented by a colon (:) followed by the name of the pseudo-class.</p> 
+<p class="special"></p>
+</div>
+<!-- 
+<br>
+<!-- <a href="https://google.com">visit google</a> -->
+    </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>link class</title> -->
+     <!-- Selects an unvisited link.
+    <style>
+        a:link {
+         color:blue;
+        }
+        </style>
+        <body>
+            <a href="https://google.com">visit google</a>
+        </body>
+</head>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>visisted class</title>
+    <!-- Selects a link that the user has already visited -->
+    <!-- <style>
+        a:visited{
+         color:blue;
+        }
+        </style>
+        <body>
+            <a href="https://google.com">visit google</a>
+        </body>
+</head>
+</html> --> -->
